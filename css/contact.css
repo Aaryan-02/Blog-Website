@@ -1,0 +1,30 @@
+.contact-content{
+    display: block;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.contact-content::after{
+    content:"";
+    background-image: url('../img/vecteezy_concept-design-news-update-web-landing-page-information-about_6663310.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.form-box input, textarea{
+    width: 47vw;
+    padding: 8px 7px;
+    margin: 5px 0px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 6px;
+}
+
+.contact-form{
+    padding: 7px 16px;
+}

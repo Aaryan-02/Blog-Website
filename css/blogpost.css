@@ -1,0 +1,45 @@
+.post-img{
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.post-img img{
+    width: 100%;
+}
+
+.blogpost-content{
+    /* background-color: plum; */
+}
+
+.blogpost-content h1{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+}
+
+.more-post{
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.blogpost-meta{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.author-name{
+    padding: 10px 0;
+}
+
+.author-name div{
+    padding: 3px 0;
+}
+
+.social-links{
+    cursor: pointer;
+    align-self: center;
+}

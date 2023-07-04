@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    font-family:var(--font1);
+    /* height: 6vh; */
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1vh 0 1vh 0;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left span{
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+}
+
+.nav-left ul li{
+    font-family: var(--font2);
+    list-style: none;
+    margin: 0 14px;
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.nav-right{
+
+}
+
+.content{
+    display: flex;
+    height: 100%;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after{
+    content:"";
+    background-image: url('../img/vecteezy_concept-design-news-update-web-landing-page-information-about_6663310.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+}
+
+.content-left{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font1);
+    padding: 50px;
+    z-index: 1;
+}
+
+.content-right{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img{
+    height: 39vh;
+    width: 22vw;
+    border: 2px solid black;
+    border-radius: 125px;
+}
+
+.home-articles{
+    background-color: rgb(247, 228, 228, 0.5);
+    padding-top: 20px;
+}
+
+.home-articles h2{
+    padding: 10px 15px;
+}
+
+.home-article{
+    display: flex;
+    margin: 5px 40px;
+    margin-bottom: 30px;
+}
+
+.home-article img{
+    width: 22vw;
+    height: 28vh;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-article-content a:hover{
+    text-decoration: underline;
+    color: var(--main-bg-color);
+}
+
+.footer{
+    height:8vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.footer a{
+    color: white;
+}
+
